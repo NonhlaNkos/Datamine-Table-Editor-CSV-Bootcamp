@@ -1,0 +1,1930 @@
+!START Bulk_Blo
+# - Use !LOCDBOFF to look for files outside the local folder 
+# - Use local files by deleting the next line or use !LOCDBON
+!LOCDBOFF
+!DMEDIT   &IN(mg1c_bm)
+
+C
+ID, Al2O
+ID_Al2O
+
+C
+ID, Al~2
+ID_Al_2
+
+C
+ID, Al~3
+ID_Al_3
+
+C
+ID, Al~4
+ID_Al_4
+
+C
+ID, Al~5
+ID_Al_5
+
+C
+ID, Al~6
+ID_Al_6
+
+C
+ID, Al~7
+ID_Al_7
+
+C
+ID, Al~8
+ID_Al_8
+
+
+
+C
+ID, CaO
+ID_CaO
+
+C
+ID, Ca~2
+ID_Ca_2
+
+C
+ID, Ca~3
+ID_Ca_3
+
+C
+ID, Ca~4
+ID_Ca_4
+
+C
+ID, Ca~5
+ID_Ca_5
+
+C
+ID, Ca~6
+ID_Ca_6
+
+C
+ID, Ca~7
+ID_Ca_7
+
+C
+ID, Ca~8
+ID_Ca_8
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+C
+ID, Ir~2
+ID_Ir_2
+
+C
+ID, Ir~3
+ID_Ir_3
+
+C
+ID, Ir~4
+ID_Ir_4
+
+C
+ID, Ir~5
+ID_Ir_5
+
+C
+ID, Ir~6
+ID_Ir_6
+
+C
+ID, Ir~7
+ID_Ir_7
+
+C
+ID, Ir~8
+ID_Ir_8
+
+
+C
+ID 2, ~2
+ID_2_2
+
+C
+ID 2, ~3
+ID_2_3
+
+C
+ID 2, ~4
+ID_2_4
+
+C
+ID 2, ~5
+ID_2_5
+
+C
+ID 2, ~6
+ID_2_6
+
+C
+ID 2, ~7
+ID_2_7
+
+C
+ID 2, ~8
+ID_2_8
+
+C
+ID, Au~2
+ID_Au_2
+
+C
+ID, Au~3
+ID_Au_3
+
+C
+ID, Au~4
+ID_Au_4
+
+C
+ID, Au~5
+ID_Au_5
+
+C
+ID, Au~6
+ID_Au_6
+
+C
+ID, Au~7
+ID_Au_7
+
+
+C
+ID, Pd_p
+ID_Pd_p
+
+C
+ID, Pd~2
+ID_Pd_2
+
+C
+ID, Pd~3
+ID_Pd_3
+
+C
+ID, Pd~4
+ID_Pd_4
+
+C
+ID, Pd~5
+ID_Pd_5
+
+C
+ID, Pd~6
+ID_Pd_6
+
+C
+ID, Pd~7
+ID_Pd_7
+
+C
+ID, Pd~8
+ID_Pd_8
+
+
+
+
+C
+ID, Pt_p
+ID_Pt_p
+
+C
+ID, Pt~2
+ID_Pt_2
+
+C
+ID, Pt~3
+ID_Pt_3
+
+C
+ID, Pt~4
+ID_Pt_4
+
+C
+ID, Pt~5
+ID_Pt_5
+
+C
+ID, Pt~6
+ID_Pt_6
+
+C
+ID, Pt~7
+ID_Pt_7
+
+C
+ID, Pt~8
+ID_Pt_8
+
+C
+ID, Cr2O
+ID_Cr2O
+
+C
+ID, FeO
+ID_FeO
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+
+C
+ID, Ir_p
+ID_Ir_p
+
+
+C
+ID, MgO
+ID_MgO
+
+C
+ID, Mg~2
+ID_Mg_2
+
+C
+ID, Mg~3
+ID_Mg_3
+
+C
+ID, Mg~4
+ID_Mg_4
+
+C
+ID, Mg~5
+ID_Mg_5
+
+C
+ID, Mg~6
+ID_Mg_6
+
+C
+ID, Mg~7
+ID_Mg_7
+
+C
+ID, Mg~8
+ID_Mg_8
+
+C
+ID, PG~2
+ID_PG_2
+
+C
+ID, PG~3
+ID_PG_3
+
+C
+ID, PG~4
+ID_PG_4
+
+C
+ID, PG~5
+ID_PG_5
+
+C
+ID, PG~6
+ID_PG_6
+
+C
+ID, PG~7
+ID_PG_7
+
+C
+ID, PG~8
+ID_PG_8
+
+
+C
+ID, Rh_p
+ID_Rh_p
+
+C
+ID, Rh~2
+ID_Rh_2
+
+
+C
+ID, Rh~3
+ID_Rh_3
+
+C
+ID, Rh~4
+ID_Rh_4
+
+
+C
+ID, Rh~5
+ID_Rh_5
+
+C
+ID, Rh~6
+ID_Rh_6
+
+C
+ID, Rh~7
+ID_Rh_7
+
+C
+ID, Rh~8
+ID_Rh_8
+
+
+C
+ID, Ru_p
+ID_Ru_p
+
+C
+ID, Ru~2
+ID_Ru_2
+
+C
+ID, Ru~3
+ID_Ru_3
+
+C
+ID, Ru~4
+ID_Ru_4
+
+C
+ID, Ru~5
+ID_Ru_5
+
+C
+ID, Ru~6
+ID_Ru_6
+
+C
+ID, Ru~7
+ID_Ru_7
+
+C
+ID, Ru~8
+ID_Ru_8
+
+C
+ID, Ru~2
+ID_Ru_2
+
+
+C
+ID, SiO2
+ID_SiO2
+
+C
+ID, Si~2
+ID_Si_2
+
+C
+ID, Si~3
+ID_Si_3
+
+C
+ID, Si~4
+ID_Si_4
+
+C
+ID, Si~5
+ID_Si_5
+
+C
+ID, Si~6
+ID_Si_6
+
+C
+ID, Si~7
+ID_Si_7
+
+C
+ID, Si~8
+ID_Si_8
+
+C
+ID, Cr~2
+ID_Cr_2
+
+C
+ID, Cr~3
+ID_Cr_3
+
+C
+ID, Cr~4
+ID_Cr_4
+
+C
+ID, Cr~5
+ID_Cr_5
+
+C
+ID, Cr~6
+ID_Cr_6
+
+C
+ID, Cr~7
+ID_Cr_7
+
+C
+ID, Cr~8
+ID_Cr_8
+
+
+!
+
+!DMEDIT   &IN(mg1a_bm)
+
+
+C
+ID, Al2O
+ID_Al2O
+
+C
+ID, Al~2
+ID_Al_2
+
+C
+ID, Al~3
+ID_Al_3
+
+C
+ID, Al~4
+ID_Al_4
+
+C
+ID, Al~5
+ID_Al_5
+
+C
+ID, Al~6
+ID_Al_6
+
+C
+ID, Al~7
+ID_Al_7
+
+
+
+C
+ID, CaO
+ID_CaO
+
+C
+ID, Ca~2
+ID_Ca_2
+
+C
+ID, Ca~3
+ID_Ca_3
+
+C
+ID, Ca~4
+ID_Ca_4
+
+C
+ID, Ca~5
+ID_Ca_5
+
+C
+ID, Ca~6
+ID_Ca_6
+
+C
+ID, Ca~7
+ID_Ca_7
+
+C
+ID, Ca~8
+ID_Ca_8
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+C
+ID, Ir~2
+ID_Ir_2
+
+C
+ID, Ir~3
+ID_Ir_3
+
+C
+ID, Ir~4
+ID_Ir_4
+
+C
+ID, Ir~5
+ID_Ir_5
+
+C
+ID, Ir~6
+ID_Ir_6
+
+C
+ID, Ir~7
+ID_Ir_7
+
+C
+ID, Ir~8
+ID_Ir_8
+
+
+C
+ID 2, ~2
+ID_2_2
+
+C
+ID 2, ~3
+ID_2_3
+
+C
+ID 2, ~4
+ID_2_4
+
+C
+ID 2, ~5
+ID_2_5
+
+C
+ID 2, ~6
+ID_2_6
+
+C
+ID 2, ~7
+ID_2_7
+
+C
+ID 2, ~8
+ID_2_8
+
+C
+ID, Au~2
+ID_Au_2
+
+C
+ID, Au~3
+ID_Au_3
+
+C
+ID, Au~4
+ID_Au_4
+
+C
+ID, Au~5
+ID_Au_5
+
+C
+ID, Au~6
+ID_Au_6
+
+C
+ID, Au~7
+ID_Au_7
+
+
+C
+ID, Pd_p
+ID_Pd_p
+
+C
+ID, Pd~2
+ID_Pd_2
+
+C
+ID, Pd~3
+ID_Pd_3
+
+C
+ID, Pd~4
+ID_Pd_4
+
+C
+ID, Pd~5
+ID_Pd_5
+
+C
+ID, Pd~6
+ID_Pd_6
+
+C
+ID, Pd~7
+ID_Pd_7
+
+C
+ID, Pd~8
+ID_Pd_8
+
+
+
+
+C
+ID, Pt_p
+ID_Pt_p
+
+C
+ID, Pt~2
+ID_Pt_2
+
+C
+ID, Pt~3
+ID_Pt_3
+
+C
+ID, Pt~4
+ID_Pt_4
+
+C
+ID, Pt~5
+ID_Pt_5
+
+C
+ID, Pt~6
+ID_Pt_6
+
+C
+ID, Pt~7
+ID_Pt_7
+
+C
+ID, Pt~8
+ID_Pt_8
+
+C
+ID, Cr2O
+ID_Cr2O
+
+C
+ID, FeO
+ID_FeO
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+
+C
+ID, Ir_p
+ID_Ir_p
+
+
+C
+ID, MgO
+ID_MgO
+
+C
+ID, Mg~2
+ID_Mg_2
+
+C
+ID, Mg~3
+ID_Mg_3
+
+C
+ID, Mg~4
+ID_Mg_4
+
+C
+ID, Mg~5
+ID_Mg_5
+
+C
+ID, Mg~6
+ID_Mg_6
+
+C
+ID, Mg~7
+ID_Mg_7
+
+C
+ID, Mg~8
+ID_Mg_8
+
+C
+ID, PG~2
+ID_PG_2
+
+C
+ID, PG~3
+ID_PG_3
+
+C
+ID, PG~4
+ID_PG_4
+
+C
+ID, PG~5
+ID_PG_5
+
+C
+ID, PG~6
+ID_PG_6
+
+C
+ID, PG~7
+ID_PG_7
+
+C
+ID, PG~8
+ID_PG_8
+
+
+C
+ID, Rh_p
+ID_Rh_p
+
+C
+ID, Rh~2
+ID_Rh_2
+
+
+C
+ID, Rh~3
+ID_Rh_3
+
+C
+ID, Rh~4
+ID_Rh_4
+
+
+C
+ID, Rh~5
+ID_Rh_5
+
+C
+ID, Rh~6
+ID_Rh_6
+
+C
+ID, Rh~7
+ID_Rh_7
+
+C
+ID, Rh~8
+ID_Rh_8
+
+
+C
+ID, Ru_p
+ID_Ru_p
+
+C
+ID, Ru~2
+ID_Ru_2
+
+C
+ID, Ru~3
+ID_Ru_3
+
+C
+ID, Ru~4
+ID_Ru_4
+
+C
+ID, Ru~5
+ID_Ru_5
+
+C
+ID, Ru~6
+ID_Ru_6
+
+C
+ID, Ru~7
+ID_Ru_7
+
+C
+ID, Ru~8
+ID_Ru_8
+
+C
+ID, Ru~2
+ID_Ru_2
+
+
+C
+ID, SiO2
+ID_SiO2
+
+C
+ID, Si~2
+ID_Si_2
+
+C
+ID, Si~3
+ID_Si_3
+
+C
+ID, Si~4
+ID_Si_4
+
+C
+ID, Si~5
+ID_Si_5
+
+C
+ID, Si~6
+ID_Si_6
+
+C
+ID, Si~7
+ID_Si_7
+
+C
+ID, Si~8
+ID_Si_8
+
+C
+ID, Cr~2
+ID_Cr_2
+
+C
+ID, Cr~3
+ID_Cr_3
+
+C
+ID, Cr~4
+ID_Cr_4
+
+C
+ID, Cr~5
+ID_Cr_5
+
+C
+ID, Cr~6
+ID_Cr_6
+
+C
+ID, Cr~8
+ID_Cr_8
+
+
+
+!
+!DMEDIT &IN(WMG1_BM)
+
+
+C
+ID, Al2O
+ID_Al2O
+
+C
+ID, Al~2
+ID_Al_2
+
+C
+ID, Al~3
+ID_Al_3
+
+C
+ID, Al~4
+ID_Al_4
+
+C
+ID, Al~5
+ID_Al_5
+
+C
+ID, Al~6
+ID_Al_6
+
+C
+ID, Al~7
+ID_Al_7
+
+
+
+C
+ID, CaO
+ID_CaO
+
+C
+ID, Ca~2
+ID_Ca_2
+
+C
+ID, Ca~3
+ID_Ca_3
+
+C
+ID, Ca~4
+ID_Ca_4
+
+C
+ID, Ca~5
+ID_Ca_5
+
+C
+ID, Ca~6
+ID_Ca_6
+
+C
+ID, Ca~7
+ID_Ca_7
+
+C
+ID, Ca~8
+ID_Ca_8
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+C
+ID, Ir~2
+ID_Ir_2
+
+C
+ID, Ir~3
+ID_Ir_3
+
+C
+ID, Ir~4
+ID_Ir_4
+
+C
+ID, Ir~5
+ID_Ir_5
+
+C
+ID, Ir~6
+ID_Ir_6
+
+C
+ID, Ir~7
+ID_Ir_7
+
+C
+ID, Ir~8
+ID_Ir_8
+
+
+C
+ID 2, ~2
+ID_2_2
+
+C
+ID 2, ~3
+ID_2_3
+
+C
+ID 2, ~4
+ID_2_4
+
+C
+ID 2, ~5
+ID_2_5
+
+C
+ID 2, ~6
+ID_2_6
+
+C
+ID 2, ~7
+ID_2_7
+
+C
+ID 2, ~8
+ID_2_8
+
+C
+ID, Au~2
+ID_Au_2
+
+C
+ID, Au~3
+ID_Au_3
+
+C
+ID, Au~4
+ID_Au_4
+
+C
+ID, Au~5
+ID_Au_5
+
+C
+ID, Au~6
+ID_Au_6
+
+C
+ID, Au~7
+ID_Au_7
+
+
+C
+ID, Pd_p
+ID_Pd_p
+
+C
+ID, Pd~2
+ID_Pd_2
+
+C
+ID, Pd~3
+ID_Pd_3
+
+C
+ID, Pd~4
+ID_Pd_4
+
+C
+ID, Pd~5
+ID_Pd_5
+
+C
+ID, Pd~6
+ID_Pd_6
+
+C
+ID, Pd~7
+ID_Pd_7
+
+C
+ID, Pd~8
+ID_Pd_8
+
+
+
+
+C
+ID, Pt_p
+ID_Pt_p
+
+C
+ID, Pt~2
+ID_Pt_2
+
+C
+ID, Pt~3
+ID_Pt_3
+
+C
+ID, Pt~4
+ID_Pt_4
+
+C
+ID, Pt~5
+ID_Pt_5
+
+C
+ID, Pt~6
+ID_Pt_6
+
+C
+ID, Pt~7
+ID_Pt_7
+
+C
+ID, Pt~8
+ID_Pt_8
+
+C
+ID, Cr2O
+ID_Cr2O
+
+C
+ID, FeO
+ID_FeO
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+
+C
+ID, Ir_p
+ID_Ir_p
+
+
+C
+ID, MgO
+ID_MgO
+
+C
+ID, Mg~2
+ID_Mg_2
+
+C
+ID, Mg~3
+ID_Mg_3
+
+C
+ID, Mg~4
+ID_Mg_4
+
+C
+ID, Mg~5
+ID_Mg_5
+
+C
+ID, Mg~6
+ID_Mg_6
+
+C
+ID, Mg~7
+ID_Mg_7
+
+C
+ID, Mg~8
+ID_Mg_8
+
+C
+ID, PG~2
+ID_PG_2
+
+C
+ID, PG~3
+ID_PG_3
+
+C
+ID, PG~4
+ID_PG_4
+
+C
+ID, PG~5
+ID_PG_5
+
+C
+ID, PG~6
+ID_PG_6
+
+C
+ID, PG~7
+ID_PG_7
+
+C
+ID, PG~8
+ID_PG_8
+
+
+C
+ID, Rh_p
+ID_Rh_p
+
+C
+ID, Rh~2
+ID_Rh_2
+
+
+C
+ID, Rh~3
+ID_Rh_3
+
+C
+ID, Rh~4
+ID_Rh_4
+
+
+C
+ID, Rh~5
+ID_Rh_5
+
+C
+ID, Rh~6
+ID_Rh_6
+
+C
+ID, Rh~7
+ID_Rh_7
+
+C
+ID, Rh~8
+ID_Rh_8
+
+
+C
+ID, Ru_p
+ID_Ru_p
+
+C
+ID, Ru~2
+ID_Ru_2
+
+C
+ID, Ru~3
+ID_Ru_3
+
+C
+ID, Ru~4
+ID_Ru_4
+
+C
+ID, Ru~5
+ID_Ru_5
+
+C
+ID, Ru~6
+ID_Ru_6
+
+C
+ID, Ru~7
+ID_Ru_7
+
+C
+ID, Ru~8
+ID_Ru_8
+
+C
+ID, Ru~2
+ID_Ru_2
+
+
+C
+ID, SiO2
+ID_SiO2
+
+C
+ID, Si~2
+ID_Si_2
+
+C
+ID, Si~3
+ID_Si_3
+
+C
+ID, Si~4
+ID_Si_4
+
+C
+ID, Si~5
+ID_Si_5
+
+C
+ID, Si~6
+ID_Si_6
+
+C
+ID, Si~7
+ID_Si_7
+
+C
+ID, Si~8
+ID_Si_8
+
+C
+ID, CrO2
+ID_CrO2
+
+C
+ID, Cr~2
+ID_Cr_2
+
+C
+ID, Cr~3
+ID_Cr_3
+
+C
+ID, Cr~4
+ID_Cr_34
+
+C
+ID, Cr~5
+ID_Cr_5
+
+C
+ID, Cr~6
+ID_Cr_6
+
+C
+ID, Cr~7
+ID_Cr_7
+
+C
+ID, Cr~8
+ID_Cr_8
+
+
+!
+!DMEDIT &IN(mg1b_bm)
+
+C
+ID, Al2O
+ID_Al2O
+
+C
+ID, Al~2
+ID_Al_2
+
+C
+ID, Al~3
+ID_Al_3
+
+C
+ID, Al~4
+ID_Al_4
+
+C
+ID, Al~5
+ID_Al_5
+
+C
+ID, Al~6
+ID_Al_6
+
+C
+ID, Al~7
+ID_Al_7
+
+
+
+C
+ID, CaO
+ID_CaO
+
+C
+ID, Ca~2
+ID_Ca_2
+
+C
+ID, Ca~3
+ID_Ca_3
+
+C
+ID, Ca~4
+ID_Ca_4
+
+C
+ID, Ca~5
+ID_Ca_5
+
+C
+ID, Ca~6
+ID_Ca_6
+
+C
+ID, Ca~7
+ID_Ca_7
+
+C
+ID, Ca~8
+ID_Ca_8
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+C
+ID, Ir~2
+ID_Ir_2
+
+C
+ID, Ir~3
+ID_Ir_3
+
+C
+ID, Ir~4
+ID_Ir_4
+
+C
+ID, Ir~5
+ID_Ir_5
+
+C
+ID, Ir~6
+ID_Ir_6
+
+C
+ID, Ir~7
+ID_Ir_7
+
+C
+ID, Ir~8
+ID_Ir_8
+
+
+C
+ID 2, ~2
+ID_2_2
+
+C
+ID 2, ~3
+ID_2_3
+
+C
+ID 2, ~4
+ID_2_4
+
+C
+ID 2, ~5
+ID_2_5
+
+C
+ID 2, ~6
+ID_2_6
+
+C
+ID 2, ~7
+ID_2_7
+
+C
+ID 2, ~8
+ID_2_8
+
+C
+ID, Au~2
+ID_Au_2
+
+C
+ID, Au~3
+ID_Au_3
+
+C
+ID, Au~4
+ID_Au_4
+
+C
+ID, Au~5
+ID_Au_5
+
+C
+ID, Au~6
+ID_Au_6
+
+C
+ID, Au~7
+ID_Au_7
+
+
+C
+ID, Pd_p
+ID_Pd_p
+
+C
+ID, Pd~2
+ID_Pd_2
+
+C
+ID, Pd~3
+ID_Pd_3
+
+C
+ID, Pd~4
+ID_Pd_4
+
+C
+ID, Pd~5
+ID_Pd_5
+
+C
+ID, Pd~6
+ID_Pd_6
+
+C
+ID, Pd~7
+ID_Pd_7
+
+C
+ID, Pd~8
+ID_Pd_8
+
+
+
+
+C
+ID, Pt_p
+ID_Pt_p
+
+C
+ID, Pt~2
+ID_Pt_2
+
+C
+ID, Pt~3
+ID_Pt_3
+
+C
+ID, Pt~4
+ID_Pt_4
+
+C
+ID, Pt~5
+ID_Pt_5
+
+C
+ID, Pt~6
+ID_Pt_6
+
+C
+ID, Pt~7
+ID_Pt_7
+
+C
+ID, Pt~8
+ID_Pt_8
+
+C
+ID, Cr2O
+ID_Cr2O
+
+C
+ID, FeO
+ID_FeO
+
+C
+ID, Fe~2
+ID_Fe_2
+
+C
+ID, Fe~3
+ID_Fe_3
+
+C
+ID, Fe~4
+ID_Fe_4
+
+C
+ID, Fe~5
+ID_Fe_5
+
+C
+ID, Fe~6
+ID_Fe_6
+
+C
+ID, Fe~7
+ID_Fe_7
+
+C
+ID, Fe~8
+ID_Fe_8
+
+
+C
+ID, Ir_p
+ID_Ir_p
+
+
+C
+ID, MgO
+ID_MgO
+
+C
+ID, Mg~2
+ID_Mg_2
+
+C
+ID, Mg~3
+ID_Mg_3
+
+C
+ID, Mg~4
+ID_Mg_4
+
+C
+ID, Mg~5
+ID_Mg_5
+
+C
+ID, Mg~6
+ID_Mg_6
+
+C
+ID, Mg~7
+ID_Mg_7
+
+C
+ID, Mg~8
+ID_Mg_8
+
+C
+ID, PG~2
+ID_PG_2
+
+C
+ID, PG~3
+ID_PG_3
+
+C
+ID, PG~4
+ID_PG_4
+
+C
+ID, PG~5
+ID_PG_5
+
+C
+ID, PG~6
+ID_PG_6
+
+C
+ID, PG~7
+ID_PG_7
+
+C
+ID, PG~8
+ID_PG_8
+
+
+C
+ID, Rh_p
+ID_Rh_p
+
+C
+ID, Rh~2
+ID_Rh_2
+
+
+C
+ID, Rh~3
+ID_Rh_3
+
+C
+ID, Rh~4
+ID_Rh_4
+
+
+C
+ID, Rh~5
+ID_Rh_5
+
+C
+ID, Rh~6
+ID_Rh_6
+
+C
+ID, Rh~7
+ID_Rh_7
+
+C
+ID, Rh~8
+ID_Rh_8
+
+
+C
+ID, Ru_p
+ID_Ru_p
+
+C
+ID, Ru~2
+ID_Ru_2
+
+C
+ID, Ru~3
+ID_Ru_3
+
+C
+ID, Ru~4
+ID_Ru_4
+
+C
+ID, Ru~5
+ID_Ru_5
+
+C
+ID, Ru~6
+ID_Ru_6
+
+C
+ID, Ru~7
+ID_Ru_7
+
+C
+ID, Ru~8
+ID_Ru_8
+
+C
+ID, Ru~2
+ID_Ru_2
+
+
+C
+ID, SiO2
+ID_SiO2
+
+C
+ID, Si~2
+ID_Si_2
+
+C
+ID, Si~3
+ID_Si_3
+
+C
+ID, Si~4
+ID_Si_4
+
+C
+ID, Si~5
+ID_Si_5
+
+C
+ID, Si~6
+ID_Si_6
+
+C
+ID, Si~7
+ID_Si_7
+
+C
+ID, Si~8
+ID_Si_8
+
+C
+ID, CrO2
+ID_CrO2
+
+C
+ID, Cr~2
+ID_Cr_2
+
+C
+ID, Cr~3
+ID_Cr_3
+
+C
+ID, Cr~4
+ID_Cr_34
+
+C
+ID, Cr~5
+ID_Cr_5
+
+C
+ID, Cr~6
+ID_Cr_6
+
+C
+ID, Cr~7
+ID_Cr_7
+
+C
+ID, Cr~8
+ID_Cr_8
+
+
+!
+
+!END
