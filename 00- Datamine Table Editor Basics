@@ -1,1 +1,86 @@
+!START 00 Data_Preparation  
+# - Use !LOCDBOFF to look for files outside the local folder 
+# - Use local files by deleting the next line or use !LOCDBON
+!LOCDBOFF
+
+'''
+This macro takes an existing OUT bord and pillar string design.
+The strings are projected to a zero elevation wireframe to flatten them.
+Then strings projected to the desired reef contact,
+And translated by the desired z-elevation to give thickeness to the outline
+'''
+
+!PROMPT
+0
+0 Input file name
+0 ==========
+1 Design file name > '$ofile#',A,24
+0
+0 Output file name
+0 ==========
+1 Output file name > '$cfile#',A,24
+0
+0
+0 Design projection type (FW/HW)
+1 FW/HW> '$var#',A,2
+0
+0
+0 What is the translation distance? (1.5/2.2)
+1 Distance> $var2#
+0 
+
+'''
+This part of the code is meant to be executed (IF/ELIF)
+Only when the conditional statement is met.
+However, struggled with executing the conditional statements
+'''
+
+
+!IF $var#=="FW", THEN
+    !EXTRA    &IN($ofile#),
+          &OUT(temp1),@APPROX=0.0
+    ZP=0
+    GO
+    !CHECKIT  &IN(temp1),
+          &OUT(temp2)
+
+    !ECHO +-------------------------
+    +ECHO Move on to projecting design to wireframe
+    !ECHO +-------------------------
+    !END
+
+!ELSEIF $var#=="HW", THEN
+    !EXTRA    &IN($ofile#),
+          &OUT(temp1),@APPROX=0.0
+    ZP=5000
+    GO
+    !CHECKIT  &IN(temp1),
+          &OUT(temp2)
+
+    !ECHO +-------------------------
+    +ECHO Move on to projecting design to wireframe in the design window
+    !ECHO +-------------------------
+    !END
+
+!START 01 Design_Translation
+
+
+!EXTRA    &IN(temp2),
+          &OUT(temp3),@APPROX=0.0
+ZP=ZP+$var2#
+GO
+!APPEND   &IN1(temp2),
+          &IN2(temp3),
+          &OUT(temp4),@SEQUENCE=0.0,@PROTODD=0.0
+!CHECKIT  &IN(temp4),
+          &OUT($cfile#)
+!DELETE   &IN(temp1)
+!DELETE   &IN(temp2)
+!DELETE   &IN(temp3)
+!DELETE   &IN(temp4)
+
+!ECHO +-------------------------
++ECHO Process complete, file saved as: $cfile#
+!ECHO +-------------------------
+!END
 
