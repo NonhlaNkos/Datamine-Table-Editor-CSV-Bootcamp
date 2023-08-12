@@ -1,0 +1,38 @@
+			Run Evaluation	X	X		
+			Description Error	X	X		
+			Export Excel	X	X		
+			Copy + Paste Excel	X	X		
+			Clean the solids (Key Field)	X	X		.
+			Rerun Evaluation	X	X		
+			Complete schedules 	X	X		
+			Backup Project		X		
+			Sanity Checks				
+							
+			Zero's in schedule	X			
+			Evaluation of Negative Solids	X			
+			SPLIT Block Model	X			
+			Block Model Pictures				
+			Scenarios (Less tonnes)				
+			Cr > 25				
+							
+			Schedule import into Strings		X	Operation Failed	Lost ACT_ID
+			Filter Strings		X		
+			Check absent Negative		X		
+			Delete Negative 1		X		
+			Run PROPER (close all strings)				
+			Validation ( < 2.1)				
+			Reprocess				
+							
+							
+			Write EXTRA				
+			Run OU		X	Operation Failed	
+			Lose String Definitions/ Attributes		X		
+			Delete non- Perimeter Strings		X		
+			Run Red		X		
+							
+			FILTPO		X	Operation Failed	
+			Sort files on X		X		
+				2.2m	1.5m		
+			Reverse Strings				
+			Check Dashboard Filter				
+			Check Previous Schedule Run				
